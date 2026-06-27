@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0046-permutations](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Backtracking
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Divide and Conquer
@@ -61,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0670-maximum-swap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0670-maximum-swap) |
+## Enumeration
+|  |
+| ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 <!---LeetCode Topics End-->
