@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0046-permutations](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
+| [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -97,9 +99,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Two Pointers
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0016-3sum-closest) |
+## Binary Search
+|  |
+| ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
