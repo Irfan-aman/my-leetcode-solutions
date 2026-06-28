@@ -16,7 +16,7 @@ public:
             ans.pop_back();
             k--;
         }
-        if(ans=="") return "0";
+        if(ans.empty()) return "0";
         return ans;
     }
 };
