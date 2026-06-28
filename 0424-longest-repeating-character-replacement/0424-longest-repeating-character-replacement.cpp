@@ -8,14 +8,12 @@ public:
         while(j<n){
             mp[s[j]]++;
             maxFreq=max(maxFreq,mp[s[j]]);
-            if((j-i+1)-maxFreq <= k) {
-                ans=max(ans,j-i+1);
-            }else{
-                if(mp[s[i]]==maxFreq) maxFreq--;
+            while((j-i+1)-maxFreq > k){
                 mp[s[i]]--;
                 if(mp[s[i]]==0) mp.erase(s[i]);
                 i++;
             }
+            ans=max(ans,j-i+1);
             j++;
         }
         return ans;
