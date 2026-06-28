@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0011-container-with-most-water) |
+| [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0670-maximum-swap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0670-maximum-swap) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Enumeration
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
+| [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 ## Sliding Window
 |  |
@@ -109,4 +111,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
+## Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
 <!---LeetCode Topics End-->
