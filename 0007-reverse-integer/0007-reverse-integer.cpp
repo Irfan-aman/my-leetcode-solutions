@@ -1,18 +1,11 @@
 class Solution {
 public:
     int reverse(int x) {
-        int sign=1;
-        long long n=x;
-        if(x<0) {
-            sign=-1;
-            n*=-1;
-        }
         long long ans=0;
-        while(n){
-            if(ans*10>INT_MAX || ans*10*sign<INT_MIN) return 0;
-            ans=ans*10 + n % 10;
-            n/=10;
+        while(x){
+            ans=ans*10 + x % 10; //works for Negative numbers too  -3 % 10 =-3 , -32 % 10 = -2  
+            x/=10;
         }
-        return (int)ans*sign;
+        return (ans<INT_MIN || ans>INT_MAX)?0: (int)ans;
     }
 };
