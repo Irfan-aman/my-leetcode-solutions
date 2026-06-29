@@ -20,6 +20,6 @@ public:
         int n=s.size();
         vector<int> LPS(n,0);
         lpsCode(s,LPS);
-        return s.substr(0,LPS[n-1]);
+        return s.substr(0,LPS.back());
     }
 };
