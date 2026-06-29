@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Sliding Window
 |  |
@@ -125,4 +126,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
+## Rolling Hash
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
+## String Matching
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
+## Hash Function
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
