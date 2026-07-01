@@ -6,19 +6,14 @@ public:
         int ans = 0;
         while (j < n) {
             mp[fruits[j]]++;
-            if (mp.size() > 2) {
-                while (i < n && mp.size() > 2) {
-                    mp[fruits[i]]--;
-                    if (mp[fruits[i]] == 0)
-                        mp.erase(fruits[i]);
-                    i++;
-                }
+            while (i < n && mp.size() > 2) {
+                mp[fruits[i]]--;
+                if (mp[fruits[i]] == 0)
+                    mp.erase(fruits[i]);
+                i++;
             }
-            if (mp.size() <= 2) {
-                ans = max(ans, j - i + 1);
-                j++;
-
-            } 
+            ans=max(ans,j-i+1);
+            j++;
         }
         return ans;
     }
