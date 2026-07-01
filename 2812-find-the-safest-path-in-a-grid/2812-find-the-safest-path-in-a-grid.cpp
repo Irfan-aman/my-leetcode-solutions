@@ -60,7 +60,7 @@ public:
         while(l<=r){
             int mid_sf=(l+r)/2;
             if(safeness(dnt,n,mid_sf)){
-                ans=max(ans,mid_sf);
+                ans= mid_sf;
                 l=mid_sf+1;
             }else r=mid_sf-1;
         }
