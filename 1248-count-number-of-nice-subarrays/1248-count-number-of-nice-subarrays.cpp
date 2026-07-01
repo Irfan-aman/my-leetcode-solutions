@@ -6,7 +6,7 @@ public:
         unordered_map<int,int> mp;//<oddCnt,freq>
         mp[0]=1;
         for(int &x:nums){
-            if(x&1==1){
+            if((x&1)==1){
                 oddCnt++;
             }
             if(mp.count(oddCnt-k)){
