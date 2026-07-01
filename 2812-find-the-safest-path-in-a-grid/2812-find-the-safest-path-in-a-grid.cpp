@@ -2,19 +2,26 @@ class Solution {
 public:
     int dx[4]={-1,1,0,0};
     int dy[4]={0,0,1,-1};
-    bool safeness(vector<vector<int>> &dnt,int n,int sf,int r,int c,vector<vector<bool>> &vis){
-        if(sf>dnt[r][c]) return false;
-        if(r==n-1 && c==n-1) return true;
-        vis[r][c]=true;
-        for(int i=0;i<4;i++){
-            int x=r + dx[i];
-            int y=c + dy[i];
-            if(x>=0 && x<n && y>=0 && y<n && !vis[x][y] && sf<=dnt[x][y]){
-                if(safeness(dnt,n,sf,x,y,vis))
-                    return true;
+    bool safeness(vector<vector<int>> &dnt,int n,int sf){
+        if(dnt[0][0]<sf) return false;
+        vector<vector<bool>> vis(n,vector<bool>(n,false));
+        queue<pair<int,int>> q;
+        q.push({0,0});
+        vis[0][0]=true;
+        while(!q.empty()){
+            int r=q.front().first;
+            int c=q.front().second;
+            if(r==n-1 && c==n-1) return true;
+            q.pop();
+            for(int i=0;i<4;i++){
+                int x=r + dx[i];
+                int y=c + dy[i];
+                if(x>=0 && x<n && y>=0 && y<n && !vis[x][y] && sf<=dnt[x][y]){
+                    vis[x][y]=true;
+                    q.push({x,y});
+                }
             }
         }
-
         return false;
     }
     int maximumSafenessFactor(vector<vector<int>>& grid) {
@@ -51,12 +58,11 @@ public:
         int r =min(dnt[0][0], dnt[n-1][n-1]);
         int ans=0;
         while(l<=r){
-            int mid=(l+r)/2;
-            vector<vector<bool>> vis1(n,vector<bool>(n,false));
-            if(safeness(dnt,n,mid,0,0,vis1)){
-                ans=max(ans,mid);
-                l=mid+1;
-            }else r=mid-1;
+            int mid_sf=(l+r)/2;
+            if(safeness(dnt,n,mid_sf)){
+                ans=max(ans,mid_sf);
+                l=mid_sf+1;
+            }else r=mid_sf-1;
         }
         return ans;
     }
