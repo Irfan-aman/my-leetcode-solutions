@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0046-permutations](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [0904-fruit-into-baskets](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0043-multiply-strings](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
 | [0670-maximum-swap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0670-maximum-swap) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
