@@ -1,25 +1,25 @@
 class Solution {
 public:
-    int maxDigitRange(vector<int>& nums) {
-        int n=nums.size();
-        unordered_map<int,vector<int>> mp;
-        int maxDiff=0;
-        for(int &x:nums){
-            int minDig=INT_MAX , maxDig=0;
-            int m=x;
-            while(m){
-                int dig=m%10;
-                minDig=min(minDig,dig);
-                maxDig=max(maxDig,dig);
-                m/=10;
-            }
-            int diff=maxDig-minDig;
-            mp[diff].push_back(x);
-            maxDiff=max(maxDiff,diff);
+    int digRange(int m) {
+    if (m == 0) return 0;
+    int minDig = 9, maxDig = 0;
+        while (m) {
+            int dig = m % 10;
+            minDig = min(minDig, dig);
+            maxDig = max(maxDig, dig);
+            m /= 10;
         }
-        int ans=0;
-        for(int &x:mp[maxDiff]){
-            ans+=x;
+        return maxDig-minDig;
+    }
+    int maxDigitRange(vector<int>& nums) {
+        int n = nums.size();
+        int maxDiff = 0;
+        for (int& x : nums) {
+            maxDiff=max(maxDiff,digRange(x));
+        }
+        int ans = 0;
+        for (int &x:nums) {
+            if(digRange(x)==maxDiff) ans += x;
         }
         return ans;
     }
