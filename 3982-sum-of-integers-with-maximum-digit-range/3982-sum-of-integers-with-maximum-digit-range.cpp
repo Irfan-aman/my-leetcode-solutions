@@ -13,13 +13,16 @@ public:
     }
     int maxDigitRange(vector<int>& nums) {
         int n = nums.size();
-        int maxDiff = 0;
+        int maxDiff = -1;
+        int ans=0;
         for (int& x : nums) {
-            maxDiff=max(maxDiff,digRange(x));
-        }
-        int ans = 0;
-        for (int &x:nums) {
-            if(digRange(x)==maxDiff) ans += x;
+            int diff=digRange(x);
+            if(diff > maxDiff){
+                maxDiff=diff;
+                ans=x;
+            }else if(diff==maxDiff){
+                ans += x;
+            }
         }
         return ans;
     }
