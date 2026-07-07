@@ -10,7 +10,7 @@ public:
         }
         for(auto &it:mp){
             if(it.first<0) sort(it.second.begin(),it.second.end());
-            else if(it.first>=0) sort(it.second.begin(),it.second.end(),greater<int>());
+            else sort(it.second.begin(),it.second.end(),greater<int>());
         }
         for(int i=m-1;i>=0;i--){
             for(int j=n-1;j>=0;j--){
