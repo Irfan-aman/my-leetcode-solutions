@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Greedy
 |  |
 | ------- |
