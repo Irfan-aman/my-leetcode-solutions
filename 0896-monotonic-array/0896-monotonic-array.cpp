@@ -2,18 +2,13 @@ class Solution {
 public:
     bool isMonotonic(vector<int>& nums) {
         int n=nums.size();
-        if(n<=2) return true;
-        int i=1;
-        while(nums[i-1]<=nums[i]){//check increasing
-            i++;
-            if(i==n)return true;
+        bool inc=false , dec=false;
+        for(int i=1;i<n;i++){
+            if(nums[i-1]<nums[i]) inc=true;
+            if(nums[i-1]>nums[i]) dec=true;
         }
-        i=1;
-        while(nums[i-1]>=nums[i]){//check decreasing
-            i++;
-            if(i==n)return true;
-        }
+        if(inc && dec) return false;
 
-        return false;
+        return true;
     }
 };
