@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void dfs(int src,unordered_map<int,vector<int>> &adj,vector<bool> &vis,int &v,int &e){
+    void dfs(int src,vector<vector<int>> &adj,vector<bool> &vis,int &v,int &e){
         vis[src]=true;
         v++;
         e+=adj[src].size();
@@ -11,7 +11,7 @@ public:
         }
     }
     int countCompleteComponents(int n, vector<vector<int>>& edges) {
-        unordered_map<int,vector<int>> adj;
+        vector<vector<int>> adj(n);
         for(auto &it:edges){
             adj[it[0]].push_back(it[1]);
             adj[it[1]].push_back(it[0]);
