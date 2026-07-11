@@ -22,7 +22,9 @@ public:
             if(!vis[i]){
                 int v =0, e=0;
                 dfs(i,adj,vis,v,e);
-                if(v*(v-1)/2 == e/2) ans++;
+                if(v*(v-1)== e) {//for complete comp. => e=v*(v-1)/2 ,but bcz edge of all node will be counted twice so we have to divide e be 2 also so that comes out e=v*(v-1)
+                    ans++;
+                }
             }
         }
         return ans;
