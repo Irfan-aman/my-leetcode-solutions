@@ -1,12 +1,18 @@
 class Solution {
 public:
-    void dfs(int src,vector<vector<int>> &adj,vector<bool> &vis,int &v,int &e){
+    void bfs(int src,vector<vector<int>> &adj,vector<bool> &vis,int &v,int &e){
+        queue<int> q;
+        q.push(src);
         vis[src]=true;
-        v++;
-        e+=adj[src].size();
-        for(auto &nbr:adj[src]){
-            if(!vis[nbr]){
-                dfs(nbr,adj,vis,v,e);
+        while(!q.empty()){
+            int u=q.front();
+            q.pop();
+            v++;e +=adj[u].size();
+            for(auto &nbr:adj[u]){
+                if(!vis[nbr]){
+                    vis[nbr]=true;
+                    q.push(nbr);
+                }
             }
         }
     }
@@ -21,7 +27,7 @@ public:
         for(int i=0;i<n;i++){
             if(!vis[i]){
                 int v =0, e=0;
-                dfs(i,adj,vis,v,e);
+                bfs(i,adj,vis,v,e);
                 if(v*(v-1)== e) {//for complete comp. => e=v*(v-1)/2 ,but bcz edge of all node will be counted twice so we have to divide e be 2 also so that comes out e=v*(v-1)
                     ans++;
                 }
