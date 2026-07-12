@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1329-sort-the-matrix-diagonally) |
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
+| [1480-running-sum-of-1d-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
+| [1480-running-sum-of-1d-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
