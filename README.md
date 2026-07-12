@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0605-can-place-flowers) |
 | [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1480-running-sum-of-1d-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [0904-fruit-into-baskets](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
