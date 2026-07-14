@@ -1,20 +1,24 @@
 class Solution {
 public:
     int MOD=1e9+7;
-    int dp[201][201][201];
-    int solve(vector<int> &nums,int i,int first,int second){
-        if(i==nums.size()) {
-            if(first!=0 && second !=0 && first==second) return 1;
-            return 0;
-        }
-        if(dp[i][first][second]!=-1) return dp[i][first][second];
-        int skip=solve(nums,i+1,first,second);
-        int take1=solve(nums,i+1,__gcd(first,nums[i]),second);
-        int take2=solve(nums,i+1,first,__gcd(second,nums[i]));
-        return dp[i][first][second] =(0LL+skip+take1+take2)%MOD;
-    }
     int subsequencePairCount(vector<int>& nums) {
-        memset(dp,-1,sizeof(dp));
-        return solve(nums,0,0,0);
+        int n = nums.size();
+        int maxi=*max_element(nums.begin(),nums.end());
+        vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(maxi+1,vector<int>(maxi+1,0)));
+        for(int i=1;i<=maxi;i++){
+            for(int j=1;j<=maxi;j++){
+                if(i==j)dp[n][i][j]=1;
+                else dp[n][i][j]=0;
+                
+            }
+        }
+        for(int i=n-1;i>=0;i--){
+            for(int j=maxi;j>=0;j--){
+                for(int k=maxi;k>=0;k--){
+                    dp[i][j][k] =(0LL+dp[i+1][j][k]+dp[i+1][__gcd(j,nums[i])][k] +dp[i+1][j][__gcd(k,nums[i])])%MOD;
+                }
+            }
+        }
+        return dp[0][0][0];
     }
 };
