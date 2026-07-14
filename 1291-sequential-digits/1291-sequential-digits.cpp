@@ -1,18 +1,18 @@
 class Solution {
 public:
     vector<int> sequentialDigits(int low, int high) {
-        queue<int> q;
-        for(int i=1;i<=8;i++){
-            q.push(i);
-        }
+        vector<int> seqDigits={12,23,34,45,56,67,78,89,
+                               123,234,345,456,567,678,789,
+                               1234,2345,3456,4567,5678,6789,
+                               12345,23456,34567,45678,56789,
+                               123456,234567,345678,456789,
+                               1234567,2345678,3456789,
+                               12345678,23456789,
+                               123456789};
         vector<int> ans;
-        while(!q.empty() && q.front()<=high){
-            int t=q.front();
-            q.pop();
-            if(t>=low)ans.push_back(t);
-            int dig=t%10;
-            if(dig<9){
-                q.push(t*10+(dig+1));
+        for(int i=0;i<36;i++){
+            if(seqDigits[i]>=low && seqDigits[i]<=high){
+                ans.push_back(seqDigits[i]);
             }
         }
         return ans;
