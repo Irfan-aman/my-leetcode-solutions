@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0152-maximum-product-subarray](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0605-can-place-flowers) |
 | [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
+| [0152-maximum-product-subarray](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [1301-number-of-paths-with-max-score](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
