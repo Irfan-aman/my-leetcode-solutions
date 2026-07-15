@@ -1,12 +1,13 @@
 class Solution {
 public:
     int maxSum(vector<int>& nums) {
-        unordered_set<int> s;
         int sum=0;
-        int maxi=*(max_element(nums.begin(),nums.end()));
+        int maxi=INT_MIN;
+        vector<bool> seen(101,false); //0 to 100
         for(int &x:nums){
-            if(x<=0 || s.count(x))continue;
-            s.insert(x);
+            maxi=max(maxi,x);
+            if(x<=0 || seen[x])continue;
+            seen[x]=true;
             sum+=x;
         }
         if(maxi<=0)return maxi;
