@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3446-sort-matrix-by-diagonals](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3446-sort-matrix-by-diagonals) |
+| [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3620-network-recovery-pathways](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3620-network-recovery-pathways) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
+| [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
 ## Enumeration
 |  |
 | ------- |
