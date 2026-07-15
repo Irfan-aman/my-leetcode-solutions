@@ -1,11 +1,8 @@
 class Solution {
 public:
     int gcdOfOddEvenSums(int n) {
-        int sumOdd=0 , sumEven=0;
-        for(int i=1;i<=n;i++){
-            sumOdd +=2*i-1;
-            sumEven +=2*i;
-        }
+        int sumOdd= n*n;// sum of 1st n odd no. = (2*1+ (n-1)2)n/2;
+        int sumEven= (n+1)*n; //sum of 1st n even no. = (2*2+(n-1)2)*n/2;
         return __gcd(sumOdd,sumEven);
     }
 };
