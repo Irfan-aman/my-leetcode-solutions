@@ -25,7 +25,7 @@ public:
         l1=reverseList(l1);
         l2=reverseList(l2);
         int carry=0;
-        ListNode* ans=new ListNode();
+        ListNode* ans=NULL;
         while(l1 || l2 || carry){
             int sum=carry;
             if(l1){
@@ -38,13 +38,10 @@ public:
             }
             carry = sum/10;
             sum = sum%10;
-            ans->val=sum;
-            ListNode* newNode=new ListNode();
+            ListNode* newNode=new ListNode(sum);
             newNode->next=ans;
             ans=newNode;
         }
-        ListNode* head=ans->next;
-        delete ans;
-        return head;
+        return ans;
     }
 };
