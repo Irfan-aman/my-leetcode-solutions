@@ -43,6 +43,8 @@ public:
             newNode->next=ans;
             ans=newNode;
         }
-        return ans->next;
+        ListNode* head=ans->next;
+        delete ans;
+        return head;
     }
 };
