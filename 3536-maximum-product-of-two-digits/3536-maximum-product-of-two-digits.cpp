@@ -1,13 +1,8 @@
 class Solution {
 public:
     int maxProduct(int n) {
-        int ans=0 , prev=n%10;n/=10;
-        while(n){
-            int dig=n%10;
-            n/=10;
-            ans=max(ans,prev*dig);
-            prev=max(prev,dig);
-        }
-        return ans;
+        string nums=to_string(n);
+        sort(begin(nums),end(nums),greater<char>());
+        return (nums[0]-'0')*(nums[1]-'0');
     }
 };
