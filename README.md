@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0605-can-place-flowers) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [0896-monotonic-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0896-monotonic-array) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0954-array-of-doubled-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [1288-remove-covered-intervals](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1329-sort-the-matrix-diagonally) |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0371-sum-of-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
 | [0670-maximum-swap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0670-maximum-swap) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
