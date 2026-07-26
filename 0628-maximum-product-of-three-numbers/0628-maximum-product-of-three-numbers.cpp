@@ -1,29 +1,30 @@
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
-        int n = nums.size();
-        int m1 = INT_MIN, m2 = INT_MIN, m3 = INT_MIN, s1 = INT_MAX,
-            s2 = INT_MAX;
-        for (int& x : nums) {
-            if (x >= m1) {
-                m3 = m2;
-                m2 = m1;
-                m1 = x;
-            } else if (x >= m2) {
-                m3 = m2;
-                m2 = x;
-            } else if (x >= m3) {
-                m3 = x;
+        int max1 = INT_MIN, max2 = INT_MIN, max3 = INT_MIN;
+        int min1 = INT_MAX, min2 = INT_MAX;
+
+        for (int x : nums) {
+            if (x >= max1) {
+                max3 = max2;
+                max2 = max1;
+                max1 = x;
+            } else if (x >= max2) {
+                max3 = max2;
+                max2 = x;
+            } else if (x >= max3) {
+                max3 = x;
             }
-            if (x <= s1) {
-                s2 = s1;
-                s1 = x;
-            } else if (x <= s2) {
-                s2 = x;
+
+            if (x <= min1) {
+                min2 = min1;
+                min1 = x;
+            } else if (x <= min2) {
+                min2 = x;
             }
         }
 
-        return max(m1 * m2 * m3, m1 * s1 * s2);
+        return max(max1 * max2 * max3, max1 * min1 * min2);
     }
 };
 
