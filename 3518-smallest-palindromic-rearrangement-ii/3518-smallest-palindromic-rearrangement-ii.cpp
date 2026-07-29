@@ -14,7 +14,7 @@ public:
         ll total = 1;
         for (int i = 0; i < 26; i++) {
             if (freq[i] > 0) {
-                int x = nCr(letters, freq[i], k);
+                ll x = nCr(letters, freq[i], k);
                 if (total > k / x)
                     return k + 1;
                 total = total * x;
