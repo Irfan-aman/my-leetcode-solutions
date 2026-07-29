@@ -53,12 +53,11 @@ public:
                 }
             }
         }
-
+        string ans = halfAns;
         if (mid != '#')
             halfAns.push_back(mid);
-        for (int i = half - 1; i >= 0; i--) {
-            halfAns.push_back(halfAns[i]);
-        }
-        return halfAns;
+        reverse(ans.begin(), ans.end());
+        ans = halfAns + ans;
+        return ans;
     }
 };
