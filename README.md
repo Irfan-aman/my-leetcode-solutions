@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3446-sort-matrix-by-diagonals](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3446-sort-matrix-by-diagonals) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3536-maximum-product-of-two-digits) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2121-intervals-between-identical-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2121-intervals-between-identical-elements) |
 | [2615-sum-of-distances](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2615-sum-of-distances) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0992-subarrays-with-k-different-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -203,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
 ## Enumeration
 |  |
@@ -228,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
