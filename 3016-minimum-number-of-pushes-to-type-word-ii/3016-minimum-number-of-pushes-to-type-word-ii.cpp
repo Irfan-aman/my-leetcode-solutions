@@ -9,31 +9,12 @@ public:
         if (n <= 8)
             return n;
         int ans = 0, pushCnt = 1;
-        for (int i = 0; i < 26; i++) {
+        for (int i = 0; i < 26; i += 8) {
             int totalWord = 0;
-            for (; i < 8; i++) {
-                totalWord += freq[i];
+            for (int j = i; j < i + 8 && j < 26; j++) {
+                totalWord += freq[j];
             }
             ans += totalWord * pushCnt;
-            totalWord = 0;
-            pushCnt++;
-            for (; i < 16; i++) {
-                totalWord += freq[i];
-            }
-            ans += totalWord * pushCnt;
-            totalWord = 0;
-            pushCnt++;
-            for (; i < 24; i++) {
-                totalWord += freq[i];
-            }
-            ans += totalWord * pushCnt;
-            totalWord = 0;
-            pushCnt++;
-            for (; i < 26; i++) {
-                totalWord += freq[i];
-            }
-            ans += totalWord * pushCnt;
-            totalWord = 0;
             pushCnt++;
         }
         return ans;
