@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1329-sort-the-matrix-diagonally) |
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1329-sort-the-matrix-diagonally) |
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2121-intervals-between-identical-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2121-intervals-between-identical-elements) |
 | [2615-sum-of-distances](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2615-sum-of-distances) |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Queue
 |  |
