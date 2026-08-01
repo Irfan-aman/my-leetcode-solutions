@@ -6,13 +6,9 @@ public:
         if (i == j)
             return nums[i];
         int take_i =
-            nums[i] +
-            min((i < nums.size() && j >= 0) ? solve(i + 2, j, nums) : 0,
-                (i < nums.size() && j >= 0) ? solve(i + 1, j - 1, nums) : 0);
+            nums[i] + min(solve(i + 2, j, nums), solve(i + 1, j - 1, nums));
         int take_j =
-            nums[j] +
-            min((i < nums.size() && j >= 0) ? solve(i + 1, j - 1, nums) : 0,
-                (i < nums.size() && j >= 0) ? solve(i, j - 2, nums) : 0);
+            nums[j] + min(solve(i + 1, j - 1, nums), solve(i, j - 2, nums));
         return max(take_i, take_j);
     }
     bool predictTheWinner(vector<int>& nums) {
