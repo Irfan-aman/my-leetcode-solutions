@@ -6,20 +6,15 @@ public:
             return 0;
         if (i == n - 1)
             return stoneValue[n - 1];
-        if (i == n - 2) {
-            if ((stoneValue[i] < 0 && stoneValue[i + 1] < 0) ||
-                (stoneValue[i] > 0 && stoneValue[i + 1] < 0))
-                return stoneValue[i] - stoneValue[i + 1];
-            return stoneValue[n - 2] + stoneValue[n - 1];
-        }
         if (dp[i] != -1)
             return dp[i];
-        int take1 = stoneValue[i] - solve(i + 1, n, stoneValue);
-        int take2 =
-            stoneValue[i] + stoneValue[i + 1] - solve(i + 2, n, stoneValue);
-        int take3 = stoneValue[i] + stoneValue[i + 1] + stoneValue[i + 2] -
-                    solve(i + 3, n, stoneValue);
-        return dp[i] = max(max(take1, take2), take3);
+        int ans = INT_MIN;
+        int sum = 0;
+        for (int j = 0; j < 3 && i + j < n; j++) {
+            sum += stoneValue[i + j];
+            ans = max(ans, sum - solve(i + j + 1, n, stoneValue));
+        }
+        return dp[i] = ans;
     }
     string stoneGameIII(vector<int>& stoneValue) {
         int n = stoneValue.size();
