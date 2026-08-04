@@ -2,10 +2,11 @@ class Solution {
 public:
     vector<int> findMissingElements(vector<int>& nums) {
         int n = nums.size();
-        sort(nums.begin(), nums.end());
-        int mini = nums[0], maxi = nums[n - 1];
+        int mini = INT_MAX, maxi = INT_MIN;
         vector<bool> seen(101, false);
         for (int& x : nums) {
+            mini = min(mini, x);
+            maxi = max(maxi, x);
             seen[x] = true;
         }
         vector<int> ans;
