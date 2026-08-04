@@ -1,36 +1,54 @@
 class Solution {
 public:
-    bool isValid(vector<vector<char>>& board, int r, int c, char ch) {
-        // row
-        for (int i = 0; i < 9; i++) {
-            if (i != r && board[i][c] == ch)
-                return false;
-        }
-        // column
-        for (int j = 0; j < 9; j++) {
-            if (j != c && board[r][j] == ch)
-                return false;
-        }
-        // 3*3 box
-        int sr = r / 3 * 3, sc = c / 3 * 3;
-        for (int i = sr; i < sr + 3; i++) {
-            for (int j = sc; j < sc + 3; j++) {
-                if ((i != r && j != c) && board[i][j] == ch)
-                    return false;
-            }
-        }
-        return true;
-    }
-    bool solve(vector<vector<char>>& board) {
+    // bool isValid(vector<vector<char>>& board, int r, int c, char ch) {
+    //     // row
+    //     for (int i = 0; i < 9; i++) {
+    //         if (i != r && board[i][c] == ch)
+    //             return false;
+    //     }
+    //     // column
+    //     for (int j = 0; j < 9; j++) {
+    //         if (j != c && board[r][j] == ch)
+    //             return false;
+    //     }
+    //     // 3*3 box
+    //     int sr = r / 3 * 3, sc = c / 3 * 3;
+    //     for (int i = sr; i < sr + 3; i++) {
+    //         for (int j = sc; j < sc + 3; j++) {
+    //             if ((i != r && j != c) && board[i][j] == ch)
+    //                 return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+    // bool solve(vector<vector<char>>& board) {
+    //     for (int i = 0; i < 9; i++) {
+    //         for (int j = 0; j < 9; j++) {
+    //             if (board[i][j] == '.')
+    //                 continue;
+    //             else if (!isValid(board, i, j, board[i][j]))
+    //                 return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+    bool isValidSudoku(vector<vector<char>>& board) {
+        unordered_set<string> st;
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] == '.')
                     continue;
-                else if (!isValid(board, i, j, board[i][j]))
+                string row = string(1, board[i][j]) + "ROW" + to_string(i);
+                string col = string(1, board[i][j]) + "COL" + to_string(j);
+                string box = string(1, board[i][j]) + "BOX" + to_string(i / 3) +
+                             to_string(j / 3);
+                if (st.count(row) || st.count(col) || st.count(box))
                     return false;
+                st.insert(row);
+                st.insert(col);
+                st.insert(box);
             }
         }
         return true;
     }
-    bool isValidSudoku(vector<vector<char>>& board) { return solve(board); }
 };
