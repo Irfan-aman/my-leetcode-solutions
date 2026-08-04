@@ -33,20 +33,21 @@ public:
     //     return true;
     // }
     bool isValidSudoku(vector<vector<char>>& board) {
-        unordered_set<string> st;
+        bool row[9][9] = {false};
+        bool col[9][9] = {false};
+        bool box[9][9] = {false};
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] == '.')
                     continue;
-                string row = string(1, board[i][j]) + "ROW" + to_string(i);
-                string col = string(1, board[i][j]) + "COL" + to_string(j);
-                string box = string(1, board[i][j]) + "BOX" + to_string(i / 3) +
-                             to_string(j / 3);
-                if (st.count(row) || st.count(col) || st.count(box))
+                int val = board[i][j] -
+                          '1'; // converting char to index 1-9 to 0 to 8 idx
+                int boxIdx = i / 3 * 3 + j / 3;
+                if (row[i][val] || col[j][val] || box[boxIdx][val])
                     return false;
-                st.insert(row);
-                st.insert(col);
-                st.insert(box);
+                row[i][val] = true;
+                col[j][val] = true;
+                box[boxIdx][val] = true;
             }
         }
         return true;
