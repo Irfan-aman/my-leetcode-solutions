@@ -25,18 +25,12 @@ public:
             }
         }
         vector<int> ans;
-        bool flag = false;
         for (int i = 0; i < n; i++) {
             if (sus[i] && indegree[i]) {
-                flag = true;
-                break;
+                vector<int> all(n);
+                iota(all.begin(), all.end(), 0);
+                return all;
             } else if (!sus[i]) {
-                ans.push_back(i);
-            }
-        }
-        if (flag) {
-            ans.clear();
-            for (int i = 0; i < n; i++) {
                 ans.push_back(i);
             }
         }
