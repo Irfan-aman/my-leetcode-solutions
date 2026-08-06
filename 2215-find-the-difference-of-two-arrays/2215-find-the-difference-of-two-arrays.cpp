@@ -15,9 +15,6 @@ public:
                 st.insert(x);
         }
         vector<int> ans1(st.begin(), st.end());
-        vector<vector<int>> ans;
-        ans.push_back(ans0);
-        ans.push_back(ans1);
-        return ans;
+        return {ans0, ans1};
     }
 };
