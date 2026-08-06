@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2121-intervals-between-identical-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2121-intervals-between-identical-elements) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2574-left-and-right-sum-differences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2574-left-and-right-sum-differences) |
 | [2615-sum-of-distances](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2615-sum-of-distances) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2121-intervals-between-identical-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2121-intervals-between-identical-elements) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2615-sum-of-distances](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2615-sum-of-distances) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
