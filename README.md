@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1406-stone-game-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
 ## Enumeration
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -302,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2149-rearrange-array-elements-by-sign) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Binary Search
 |  |
