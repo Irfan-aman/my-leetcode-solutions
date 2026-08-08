@@ -15,23 +15,21 @@ public:
             i--;
         }
         i = 0, j = 0;
-        bool changePower = true;
+        bool canPower = true;
         while (i < n1 && j < n2) {
             if (word1[i] == word2[j]) {
                 ans.push_back(i);
                 j++;
-            } else {
-                if (changePower && i + 1 < n1 &&
-                    suffixMatch[i + 1] >= n2 - j - 1) {
-                    ans.push_back(i);
-                    changePower = false;
-                    j++;
-                }
+            } else if (canPower && i + 1 < n1 &&
+                       suffixMatch[i + 1] >= n2 - j - 1) {
+                ans.push_back(i);
+                canPower = false;
+                j++;
             }
             i++;
         }
-        if (j == n2)
-            return ans;
-        return {};
+        if (j != n2)
+            return {};
+        return ans;
     }
 };
