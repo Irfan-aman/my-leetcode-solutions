@@ -7,6 +7,8 @@ public:
         char leftChar;
         char rightChar;
     };
+    int n;
+    vector<Node> segTree;
     Node merge(const Node& L,const Node& R, int leftLen, int rightLen) {
         Node result;
         result.leftChar = L.leftChar;
@@ -40,7 +42,7 @@ public:
             merge(segTree[2 * i + 1], segTree[2 * i + 2], mid - l + 1, r - mid);
     }
 
-    void buildSegmentTree(int i, int l, int r, string& s) {
+    void buildSegmentTree(int i, int l, int r,const string& s) {
         if (l == r) {
             segTree[i] = {1, 1, 1, s[l], s[r]};
             return;
@@ -51,8 +53,7 @@ public:
         segTree[i] =
             merge(segTree[2 * i + 1], segTree[2 * i + 2], mid - l + 1, r - mid);
     }
-    int n;
-    vector<Node> segTree;
+
     vector<int> longestRepeating(string s, string queryCharacters,
                                  vector<int>& queryIndices) {
         n = s.size();
