@@ -2,15 +2,13 @@ class Solution {
 public:
     int maximumLengthSubstring(string s) {
         int n = s.size();
-        unordered_map<char, int> mp;
+        vector<int> mp(26, 0);
         int i = 0;
         int ans = 0;
         for (int j = 0; j < n; j++) {
-            mp[s[j]]++;
-            while (mp[s[j]] > 2) {
-                mp[s[i]]--;
-                if (mp[s[i]] == 0)
-                    mp.erase(s[i]);
+            mp[s[j] - 'a']++;
+            while (mp[s[j] - 'a'] > 2) {
+                mp[s[i] - 'a']--;
                 i++;
             }
             ans = max(ans, j - i + 1);
