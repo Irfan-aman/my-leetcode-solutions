@@ -6,7 +6,7 @@ public:
             freq[nums[i]]++;
         }
         for (int i = 50; i >= 1; i--) {
-            if (freq[i] ==1) {
+            if (freq[i] == 1) {
                 return i;
             }
         }
@@ -31,15 +31,10 @@ public:
             if (x == lastNum)
                 cntLastN++;
         }
-        if (lastNum > firstNum) {
-            if (cntLastN == 1)
-                return lastNum;
-            else if (cntFirstN == 1)
-                return firstNum;
-        }else if(firstNum>lastNum){
-            if(cntFirstN==1)return firstNum;
-            else if(cntLastN==1)return lastNum;
-        }
+        if (cntLastN == 1)
+            ans = max(ans, lastNum);
+        if (cntFirstN == 1)
+            ans = max(ans, firstNum);
         return ans;
     }
 };
