@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1329-sort-the-matrix-diagonally](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1329-sort-the-matrix-diagonally) |
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1386-cinema-seat-allocation](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1470-shuffle-the-array) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1386-cinema-seat-allocation](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2121-intervals-between-identical-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2121-intervals-between-identical-elements) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2215-find-the-difference-of-two-arrays) |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [0954-array-of-doubled-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1386-cinema-seat-allocation](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2007-find-original-array-from-doubled-array) |
 | [2029-stone-game-ix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2029-stone-game-ix) |
@@ -456,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0029-divide-two-integers) |
 | [0371-sum-of-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0645-set-mismatch](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0645-set-mismatch) |
+| [1386-cinema-seat-allocation](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3514-number-of-unique-xor-triplets-ii) |
