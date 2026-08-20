@@ -7,13 +7,13 @@ public:
         int ans = 0;
         for (int i = 0; i < 32; i++) {
             int cnt = 0;
-            for (int i = 0; i < n; i++) {
-                if (nums[i] & 1)
+            for (int& x : nums) {
+                if (x & 1)
                     cnt++;
-                nums[i] >>= 1;
+                x >>= 1;
             }
-            if(cnt%3==1) {
-                ans |= (1<<i);
+            if (cnt % 3 == 1) {
+                ans |= (1 << i);
             }
         }
 
