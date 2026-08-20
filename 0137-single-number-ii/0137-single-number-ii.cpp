@@ -2,17 +2,21 @@ class Solution {
 public:
     int singleNumber(vector<int>& nums) {
         int n = nums.size();
-        if(n==1)return nums[0];
-        sort(nums.begin(), nums.end());
-        int ans = nums[0];
-        for (int i = 1; i < n - 1; i++) {
-            if (nums[i] != nums[i - 1] && nums[i] != nums[i + 1]) {
-                ans = nums[i];
-                break;
+        if (n == 1)
+            return nums[0];
+        int ans = 0;
+        for (int i = 0; i < 32; i++) {
+            int cnt = 0;
+            for (int i = 0; i < n; i++) {
+                if (nums[i] & 1)
+                    cnt++;
+                nums[i] >>= 1;
+            }
+            if(cnt%3==1) {
+                ans |= (1<<i);
             }
         }
-        if (nums[n - 1] != nums[n - 2])
-            ans = nums[n - 1];
+
         return ans;
     }
 };
