@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0605-can-place-flowers) |
+| [0611-valid-triangle-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0645-set-mismatch) |
 | [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0611-valid-triangle-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0645-set-mismatch) |
 | [0954-array-of-doubled-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0605-can-place-flowers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0605-can-place-flowers) |
+| [0611-valid-triangle-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0670-maximum-swap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0670-maximum-swap) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [0954-array-of-doubled-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
@@ -347,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0611-valid-triangle-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2149-rearrange-array-elements-by-sign) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -356,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0611-valid-triangle-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [1004-max-consecutive-ones-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2812-find-the-safest-path-in-a-grid) |
