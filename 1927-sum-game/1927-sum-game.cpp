@@ -21,13 +21,8 @@ public:
         }
         if ((leftQnCount + rightQnCount) & 1) { // odd '?' count
             return true;
-        } else { // Even '?' count
-            if (2 * leftSum + 9 * leftQnCount ==
-                2 * rightSum + 9 * rightQnCount) {
-                return false;
-            } else {
-                return true;
-            }
         }
+        return (2 * leftSum + 9 * leftQnCount) !=
+               (2 * rightSum + 9 * rightQnCount);
     }
 };
