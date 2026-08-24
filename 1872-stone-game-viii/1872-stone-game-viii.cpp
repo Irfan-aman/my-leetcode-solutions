@@ -10,9 +10,9 @@ public:
         vector<int> dp(n + 1, 0);
         dp[n - 1] = pref[n - 1];
         for (int i = n - 2; i >= 1; i--) {
-            int take = pref[i] - dp[i + 1];
-            int skip = dp[i + 1];
-            dp[i] = max(take, skip);
+            // int take = pref[i] - dp[i + 1];
+            // int skip = dp[i + 1];
+            dp[i] = max(pref[i] - dp[i + 1], dp[i + 1]);
         }
 
         return dp[1];
