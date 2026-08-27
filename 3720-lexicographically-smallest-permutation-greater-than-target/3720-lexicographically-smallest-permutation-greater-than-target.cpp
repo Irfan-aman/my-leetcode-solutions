@@ -16,14 +16,14 @@ public:
             if (!greater && ch < target[i])
                 continue;
 
-            bool newGreater = greater || (ch > target[i]);
-            curr.push_back(ch);                                 //  DO
-            freq[ch - 'a']--;                                   //  Do
-            if (solve(curr, freq, target, i + 1, newGreater)) { // EXPLORE
+            bool isGreater = greater || (ch > target[i]);
+            curr.push_back(ch);                                //  DO
+            freq[ch - 'a']--;                                  //  Do
+            if (solve(curr, freq, target, i + 1, isGreater)) { // EXPLORE
                 return true;
             }
-            curr.pop_back(); // UNDO
-            freq[ch - 'a']++;
+            curr.pop_back();  // UNDO
+            freq[ch - 'a']++; // UNDO
         }
         return false;
     }
