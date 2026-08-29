@@ -18,10 +18,9 @@ public:
         }
         vector<int> result(n);
         for (int i = 0; i < n; i++) {
-            int currGrpNo = numtoGroup[nums[i]];
-            int smallNo = grouptoList[currGrpNo].front();
-            grouptoList[currGrpNo].pop_front();
-            result[i] = smallNo;
+            int group = numtoGroup[nums[i]];
+            result[i] = grouptoList[group].front();
+            grouptoList[group].pop_front();
         }
         return result;
     }
