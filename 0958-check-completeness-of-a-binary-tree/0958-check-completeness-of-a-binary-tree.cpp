@@ -12,22 +12,21 @@
  */
 class Solution {
 public:
+    int countNode(TreeNode* root) {
+        if (root == NULL)
+            return 0;
+        return 1 + countNode(root->left) + countNode(root->right);
+    }
+    bool dfs(TreeNode* root, int idx, int totalNodes) {
+        if (root == NULL)
+            return true;
+        if (idx > totalNodes)
+            return false;
+        return dfs(root->left, 2 * idx, totalNodes) &&
+               dfs(root->right, 2 * idx + 1, totalNodes);
+    }
     bool isCompleteTree(TreeNode* root) {
-        queue<TreeNode*> q;
-        q.push(root);
-        bool past = false;
-        while (!q.empty()) {
-            TreeNode* curr = q.front();
-            q.pop();
-            if (curr == NULL)
-                past = true;
-            else {
-                if (past)
-                    return false;
-                q.push(curr->left);
-                q.push(curr->right);
-            }
-        }
-        return true;
+        int totalNodes = countNode(root);
+        return dfs(root, 1, totalNodes);
     }
 };
