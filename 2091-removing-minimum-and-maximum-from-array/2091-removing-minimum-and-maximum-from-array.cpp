@@ -13,8 +13,7 @@ public:
         }
         int leftIdx = min(mini, maxi);
         int rightIdx = max(mini, maxi);
-        int res =
-            min((leftIdx + 1) + (n - rightIdx), min(rightIdx + 1, n - leftIdx));
+        int res = min({leftIdx + 1 + n - rightIdx, rightIdx + 1, n - leftIdx});
         return res;
     }
 };
