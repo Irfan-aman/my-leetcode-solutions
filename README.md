@@ -530,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0061-rotate-list](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0061-rotate-list) |
 | [0445-add-two-numbers-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
+| [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Tree
 |  |
 | ------- |
