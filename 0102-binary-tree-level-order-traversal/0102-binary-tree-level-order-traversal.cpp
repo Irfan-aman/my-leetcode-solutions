@@ -18,26 +18,20 @@ public:
         vector<vector<int>> res;
         queue<TreeNode*> q;
         q.push(root);
-        q.push(NULL);
-        vector<int> eachLevel;
+        // q.push(NULL);
         while (!q.empty()) {
-            TreeNode* curr = q.front();
-            q.pop();
-            if (curr == NULL) {
-                res.push_back(eachLevel);
-                if (q.empty()) {
-                    break;
-                } else {
-                    q.push(NULL);
-                    eachLevel.clear();
-                    continue;
-                }
+            vector<int> eachLevel;
+            int size = q.size();
+            while (size--) {
+                TreeNode* curr = q.front();
+                q.pop();
+                eachLevel.push_back(curr->val);
+                if (curr->left)
+                    q.push(curr->left);
+                if (curr->right)
+                    q.push(curr->right);
             }
-            if (curr->left)
-                q.push(curr->left);
-            if (curr->right)
-                q.push(curr->right);
-            eachLevel.push_back(curr->val);
+            res.push_back(eachLevel);
         }
         return res;
     }
