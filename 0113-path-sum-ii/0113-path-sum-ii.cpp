@@ -14,7 +14,7 @@ class Solution {
 public:
     vector<vector<int>> res;
     void pathSumHelper(TreeNode* root, int currSum, int& targetSum,
-                       vector<int> temp) {
+                       vector<int>& temp) {
         if (!root)
             return;
 
@@ -25,10 +25,12 @@ public:
             if (currSum == targetSum) {
                 res.push_back(temp);
             }
+            temp.pop_back();
             return;
         }
         pathSumHelper(root->left, currSum, targetSum, temp);
         pathSumHelper(root->right, currSum, targetSum, temp);
+        temp.pop_back();
     }
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
         vector<int> temp;
