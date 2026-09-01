@@ -50,27 +50,28 @@ public:
                     curr.energyLeft = maxEnergy;
                 }
                 if (curr.collectedMask == allCollected) {
-                    return moves;
+                    return moves; // return smallest
                 }
                 if (curr.energyLeft == 0)
                     continue;
 
                 for (int i = 0; i < 4; i++) {
-                    int x = currRow + dx[i];
-                    int y = currCol + dy[i];
-                    if (x < 0 || x >= m || y < 0 || y >= n)
+                    int x = currRow + dx[i]; // next row
+                    int y = currCol + dy[i]; // next col
+                    if (x < 0 || x >= m || y < 0 || y >= n ||
+                        classroom[x][y] == 'X')
                         continue;
                     char cell = classroom[x][y];
-                    if (cell == 'X')
-                        continue;
+
                     int currEnergy = curr.energyLeft;
                     int currLitterColl = curr.collectedMask;
                     if (cell == 'R')
                         currEnergy = maxEnergy;
                     else if (cell == 'L') {
-                        currLitterColl |= (1 << litterBit[x][y]);
+                        currLitterColl |=
+                            (1 << litterBit[x][y]); // nextCollectedLitter
                     }
-                    currEnergy--;
+                    currEnergy--; // nextRemainingEnergy
                     if (!vis[x][y][currEnergy][currLitterColl]) {
                         vis[x][y][currEnergy][currLitterColl] = true;
                         q.push({x, y, currEnergy, currLitterColl});
