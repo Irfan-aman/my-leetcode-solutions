@@ -12,19 +12,27 @@
  */
 class Solution {
 public:
-    bool pruneHelper(TreeNode*& root) {
+    bool isOnePresent(TreeNode* root) {
         if (!root)
             return false;
-        bool leftTree = pruneHelper(root->left);
-        bool rightTree = pruneHelper(root->right);
-        if (!leftTree && !rightTree && root->val == 0) {
-            root = NULL;
-            return false;
-        }
-        return true;
+        if (root->val == 1)
+            return true;
+        return isOnePresent(root->left) || isOnePresent(root->right);
     }
     TreeNode* pruneTree(TreeNode* root) {
-        pruneHelper(root);
+        if (!root)
+            return NULL;
+        if (!isOnePresent(root->left)) {
+            root->left = NULL;
+        }
+        if (!isOnePresent(root->right)) {
+            root->right = NULL;
+        }
+        pruneTree(root->left);
+        pruneTree(root->right);
+        if (root->left == NULL && root->right == NULL && root->val == 0) {
+            return NULL;
+        }
         return root;
     }
 };
