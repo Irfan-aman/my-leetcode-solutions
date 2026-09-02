@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0146-lru-cache](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0146-lru-cache) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -558,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0061-rotate-list](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0061-rotate-list) |
+| [0146-lru-cache](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0146-lru-cache) |
 | [0445-add-two-numbers-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0706-design-hashmap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0706-design-hashmap) |
 | [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
@@ -582,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0146-lru-cache) |
 | [0706-design-hashmap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0706-design-hashmap) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 ## Number Theory
@@ -724,4 +727,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
