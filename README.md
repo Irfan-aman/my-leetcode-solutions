@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Greedy
 |  |
 | ------- |
