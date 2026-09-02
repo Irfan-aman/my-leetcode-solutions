@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0029-divide-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0070-climbing-stairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0371-sum-of-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -691,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0509-fibonacci-number) |
 ## Binary Tree
 |  |
