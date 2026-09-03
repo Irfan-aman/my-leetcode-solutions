@@ -26,14 +26,6 @@ public:
         vector<int> root2Leaves;
         fillLeaves(root1, root1Leaves);
         fillLeaves(root2, root2Leaves);
-        if (root1Leaves.size() == root2Leaves.size()) {
-            for (int i = 0; i < root1Leaves.size(); i++) {
-                if (root1Leaves[i] != root2Leaves[i]) {
-                    return false;
-                }
-            }
-        } else
-            return false;
-        return true;
+        return root1Leaves == root2Leaves;
     }
 };
