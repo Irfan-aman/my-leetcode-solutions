@@ -12,20 +12,19 @@
  */
 class Solution {
 public:
-    void fillLeaves(TreeNode* root, vector<int>& arr) {
+    void inorder(TreeNode* root, string& s) {
         if (!root)
             return;
-        fillLeaves(root->left, arr);
-        fillLeaves(root->right, arr);
         if (root->left == NULL && root->right == NULL) {
-            arr.push_back(root->val);
+            s += to_string(root->val) + "#";
         }
+        inorder(root->left, s);
+        inorder(root->right, s);
     }
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        vector<int> root1Leaves;
-        vector<int> root2Leaves;
-        fillLeaves(root1, root1Leaves);
-        fillLeaves(root2, root2Leaves);
-        return root1Leaves == root2Leaves;
+        string s1 = "", s2 = "";
+        inorder(root1, s1);
+        inorder(root2, s2);
+        return s1 == s2;
     }
 };
