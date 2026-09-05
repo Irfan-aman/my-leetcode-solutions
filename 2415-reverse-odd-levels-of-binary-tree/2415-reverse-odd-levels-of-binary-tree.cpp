@@ -12,33 +12,17 @@
  */
 class Solution {
 public:
-    TreeNode* reverseOddLevels(TreeNode* root) {
-        queue<TreeNode*> q;
-        q.push(root);
-        bool flag = false;
-        while (!q.empty()) {
-            int size = q.size();
-            vector<TreeNode*> oddNodes;
-            while (size--) {
-                TreeNode* curr = q.front();
-                q.pop();
-                if (curr->left)
-                    q.push(curr->left);
-                if (curr->right)
-                    q.push(curr->right);
-                if (flag)
-                    oddNodes.push_back(curr);
-            }
-            if (flag) {
-                int l = 0, h = oddNodes.size() - 1;
-                while (l < h) {
-                    swap(oddNodes[l]->val, oddNodes[h]->val);
-                    l++;
-                    h--;
-                }
-            }
-            flag = !flag;
+    void reverseOddLevHelper(TreeNode*& P, TreeNode*& Q, int level) {
+        if (!P && !Q)
+            return;
+        if (level & 1) {
+            swap(P->val, Q->val);
         }
+        reverseOddLevHelper(P->left, Q->right, level + 1);
+        reverseOddLevHelper(P->right, Q->left, level + 1);
+    }
+    TreeNode* reverseOddLevels(TreeNode* root) {
+        reverseOddLevHelper(root->left, root->right, 1);
         return root;
     }
 };
