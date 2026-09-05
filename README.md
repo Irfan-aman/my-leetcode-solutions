@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0645-set-mismatch) |
+| [0652-find-duplicate-subtrees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0706-design-hashmap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
 | [0904-fruit-into-baskets](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0904-fruit-into-baskets) |
@@ -548,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
+| [0652-find-duplicate-subtrees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0814-binary-tree-pruning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0814-binary-tree-pruning) |
 | [0872-leaf-similar-trees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0872-leaf-similar-trees) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -598,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
+| [0652-find-duplicate-subtrees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0814-binary-tree-pruning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0814-binary-tree-pruning) |
 | [0872-leaf-similar-trees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -740,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
+| [0652-find-duplicate-subtrees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0814-binary-tree-pruning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0814-binary-tree-pruning) |
 | [0872-leaf-similar-trees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
