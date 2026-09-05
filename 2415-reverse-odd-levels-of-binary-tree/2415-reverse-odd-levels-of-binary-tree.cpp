@@ -32,9 +32,7 @@ public:
             if (flag) {
                 int l = 0, h = oddNodes.size() - 1;
                 while (l < h) {
-                    int x = oddNodes[l]->val;
-                    oddNodes[l]->val = oddNodes[h]->val;
-                    oddNodes[h]->val = x;
+                    swap(oddNodes[l]->val, oddNodes[h]->val);
                     l++;
                     h--;
                 }
