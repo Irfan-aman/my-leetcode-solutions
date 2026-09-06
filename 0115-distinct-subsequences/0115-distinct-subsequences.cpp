@@ -1,25 +1,22 @@
 class Solution {
 public:
-    int n, m;
-    int dp[1001][1001];
-    int matchAndExploreChar(string& s, string& t, int i, int j) {
-        if (j >= m)
-            return 1;
-        if (i >= n)
-            return 0;
-        if (dp[i][j] != -1)
-            return dp[i][j];
-        if (s[i] != t[j]) {
-            return dp[i][j] = matchAndExploreChar(s, t, i + 1, j);
-        } else {
-            return dp[i][j] = matchAndExploreChar(s, t, i + 1, j + 1) +
-                              matchAndExploreChar(s, t, i + 1, j);
-        }
-    }
+    typedef unsigned long long ull;
     int numDistinct(string s, string t) {
-        n = s.size();
-        m = t.size();
-        memset(dp, -1, sizeof(dp));
-        return matchAndExploreChar(s, t, 0, 0);
+        int m = s.size();
+        int n = t.size();
+        vector<ull> prev(n + 1, 0);
+        vector<ull> curr(n + 1, 0);
+        prev[0] = curr[0] = 1;
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s[i - 1] == t[j - 1]) {
+                    curr[j] = prev[j - 1] + prev[j];
+                } else {
+                    curr[j] = prev[j];
+                }
+            }
+            prev = curr;
+        }
+        return prev[n];
     }
 };
