@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0316-remove-duplicate-letters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
@@ -547,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -601,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
@@ -752,6 +755,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
