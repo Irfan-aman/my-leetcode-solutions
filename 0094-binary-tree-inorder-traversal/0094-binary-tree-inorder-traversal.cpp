@@ -20,14 +20,18 @@ public:
                 res.push_back(curr->val);
                 curr = curr->right;
             } else {
-                TreeNode* leftChild = curr->left;
-                while (leftChild->right) {
-                    leftChild = leftChild->right;
+                TreeNode* pred = curr->left;
+                while (pred->right && pred->right != curr) {
+                    pred = pred->right;
                 }
-                leftChild->right = curr;
-                TreeNode* temp = curr;
-                curr = curr->left;
-                temp->left = NULL;
+                if (pred->right == NULL) {
+                    pred->right = curr; // create connection to curr
+                    curr = curr->left;
+                } else {                // pred->right==curr
+                    pred->right = NULL; // remove connection
+                    res.push_back(curr->val);
+                    curr = curr->right;
+                }
             }
         }
         return res;
