@@ -18,9 +18,7 @@ public:
                         continue;
                     map[k]--;
                     int num = i * 100 + j * 10 + k;
-                    if (num >= 100 && (num & 1) == 0) {
-                        ans.push_back(num);
-                    }
+                    ans.push_back(num);
                     map[k]++;
                 }
                 map[j]++;
