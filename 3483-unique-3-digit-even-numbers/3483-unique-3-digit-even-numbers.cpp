@@ -4,7 +4,7 @@ public:
         vector<int> map(10);
         for (int& x : digits)
             map[x]++;
-        vector<int> ans;
+        int ans = 0;
         for (int i = 1; i <= 9; i++) {
             if (map[i] == 0)
                 continue;
@@ -16,17 +16,12 @@ public:
                 for (int k = 0; k <= 8; k += 2) {
                     if (map[k] == 0)
                         continue;
-                    map[k]--;
-                    int num = i * 100 + j * 10 + k;
-                    if (num >= 100 && (num & 1) == 0) {
-                        ans.push_back(num);
-                    }
-                    map[k]++;
+                    ans++;
                 }
                 map[j]++;
             }
             map[i]++;
         }
-        return ans.size();
+        return ans;
     }
 };
