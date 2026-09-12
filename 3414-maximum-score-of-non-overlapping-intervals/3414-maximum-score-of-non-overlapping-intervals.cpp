@@ -31,13 +31,12 @@ public:
             int endPoint = intervals[i][1];
             nextIdx[i] = findNextIdx(intervals, endPoint);
         }
-        int k = 4;
-        dp.assign(n + 1, vector<Node>(k + 1));
+        dp.assign(n + 1, vector<Node>(4 + 1));
 
         for (int i = n - 1; i >= 0; i--) {
-            for (int j = 1; j <= 4; j++) {
-                Node skip = dp[i + 1][j];
-                Node temp = dp[nextIdx[i]][j - 1];
+            for (int k = 1; k <= 4; k++) {
+                Node skip = dp[i + 1][k];
+                Node temp = dp[nextIdx[i]][k - 1];
                 Node take;
                 take.score = intervals[i][2] + temp.score;
                 take.idxs = temp.idxs;
@@ -52,10 +51,10 @@ public:
                          // smallest
                     result = (skip.idxs < take.idxs) ? skip : take;
                 }
-                dp[i][j] = result;
+                dp[i][k] = result;
             }
         }
 
-        return dp[0][k].idxs;
+        return dp[0][4].idxs;
     }
 };
