@@ -20,29 +20,6 @@ public:
         }
         return result;
     }
-    Node solve(vector<vector<int>>& intervals, int i, int k) {
-        if (k == 0 || i >= n)
-            return Node();
-        if (dp[i][k].score != -1) {
-            return dp[i][k];
-        }
-        Node skip = solve(intervals, i + 1, k);
-        Node temp = solve(intervals, nextIdx[i], k - 1);
-        Node take;
-        take.score = intervals[i][2] + temp.score;
-        take.idxs = temp.idxs;
-        take.idxs.push_back(intervals[i][3]);
-        sort(begin(take.idxs), end(take.idxs));
-        Node result;
-        if (skip.score > take.score) {
-            result = skip;
-        } else if (take.score > skip.score) {
-            result = take;
-        } else { // both score are equal =>chose lexicographically smallest
-            result = (skip.idxs < take.idxs) ? skip : take;
-        }
-        return dp[i][k] = result;
-    }
     vector<int> maximumWeight(vector<vector<int>>& intervals) {
         n = intervals.size();
         for (int i = 0; i < n; i++) {
@@ -56,6 +33,29 @@ public:
         }
         int k = 4;
         dp.assign(n + 1, vector<Node>(k + 1));
-        return solve(intervals, 0, k).idxs;
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = 1; j <= 4; j++) {
+                Node skip = dp[i + 1][j];
+                Node temp = dp[nextIdx[i]][j - 1];
+                Node take;
+                take.score = intervals[i][2] + temp.score;
+                take.idxs = temp.idxs;
+                take.idxs.push_back(intervals[i][3]);
+                sort(begin(take.idxs), end(take.idxs));
+                Node result;
+                if (skip.score > take.score) {
+                    result = skip;
+                } else if (take.score > skip.score) {
+                    result = take;
+                } else { // both score are equal =>chose lexicographically
+                         // smallest
+                    result = (skip.idxs < take.idxs) ? skip : take;
+                }
+                dp[i][j] = result;
+            }
+        }
+
+        return dp[0][k].idxs;
     }
 };
