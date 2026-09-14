@@ -296,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0667-beautiful-arrangement-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0667-beautiful-arrangement-ii) |
 | [0670-maximum-swap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0670-maximum-swap) |
 | [0781-rabbits-in-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0781-rabbits-in-forest) |
+| [0836-rectangle-overlap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0877-stone-game) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1140-stone-game-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1140-stone-game-ii) |
@@ -827,4 +828,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0292-nim-game) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
