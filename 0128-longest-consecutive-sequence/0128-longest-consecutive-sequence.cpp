@@ -5,18 +5,17 @@ public:
         if (n == 0)
             return 0;
         int res = 1;
-        sort(nums.begin(), nums.end());
-        int x = nums[0], currLen = 1;
-        for (int i = 1; i < n; i++) {
-            if (nums[i] == x)
-                continue;
-            else if (nums[i] == x + 1) {
-                currLen++;
-                x++;
-                res = max(res, currLen);
-            } else {
-                currLen = 1;
-                x = nums[i];
+        unordered_set<int> st;
+        for (int& x : nums)
+            st.insert(x);
+        for (auto x : st) {
+            if (!st.count(x - 1)) {
+                int currLen = 1;
+                while (st.count(x + 1)) {
+                    currLen++;
+                    x++;
+                    res = max(res, currLen);
+                }
             }
         }
         return res;
