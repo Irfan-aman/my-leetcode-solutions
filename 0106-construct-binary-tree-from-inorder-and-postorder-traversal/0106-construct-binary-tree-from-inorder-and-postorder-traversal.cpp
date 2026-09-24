@@ -12,27 +12,31 @@
  */
 class Solution {
 public:
-    int search(vector<int>& inorder, int left, int right, int val) {
-        for (int i = left; i <= right; i++) {
+    int findInorderIdx(vector<int>& inorder, int val, int st, int end) {
+        for (int i = st; i <= end; i++) {
             if (inorder[i] == val) {
                 return i;
             }
         }
         return -1;
     }
-    TreeNode* solve(vector<int>& preorder, vector<int>& inorder, int left,
-                    int right, int& preIdx) {
-        if (left > right)
+    TreeNode* buildRecursively(vector<int>& inorder, vector<int>& postorder,
+                               int inSt, int inEnd, int postSt, int postEnd) {
+        if (inSt >inEnd) {
             return NULL;
-        TreeNode* root = new TreeNode(preorder[preIdx++]);
-        int inorderIdx = search(inorder, left, right, root->val);
-        root->right = solve(preorder, inorder, inorderIdx + 1, right, preIdx);
-        root->left = solve(preorder, inorder, left, inorderIdx - 1, preIdx);
+        }
+        TreeNode* root = new TreeNode(postorder[postEnd]);
+        int i = findInorderIdx(inorder, postorder[postEnd], inSt, inEnd);
+        int leftSize = i - inSt;
+        int rightSize = inEnd - i;
+        root->left = buildRecursively(inorder, postorder, inSt, i - 1, postSt,
+                                      postSt + leftSize - 1);
+        root->right = buildRecursively(inorder, postorder, i + 1, inEnd,
+                                       postEnd - rightSize, postEnd - 1);
         return root;
     }
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        reverse(postorder.begin(), postorder.end());
-        int preIdx = 0;
-        return solve(postorder, inorder, 0, postorder.size() - 1, preIdx);
+        int n = inorder.size();
+        return buildRecursively(inorder, postorder, 0, n - 1, 0, n - 1);
     }
 };
