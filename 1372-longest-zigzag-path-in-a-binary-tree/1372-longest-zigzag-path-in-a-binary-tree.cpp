@@ -13,22 +13,15 @@
 class Solution {
 public:
     int maxPath;
-    void solve(TreeNode* root, int step, bool goLeft) {
+    void solve(TreeNode* root, int l, int r) {
         if (!root)
             return;
-        maxPath = max(maxPath, step);
-        if (goLeft) {
-            solve(root->left, step + 1, false);
-            solve(root->right, 1, true);
-        } else {
-            solve(root->right, step + 1, true);
-            solve(root->left, 1, false);
-        }
+        maxPath = max({maxPath, l, r});
+        solve(root->left, r + 1, 0);
+        solve(root->right, 0, l + 1);
     }
     int longestZigZag(TreeNode* root) {
-        maxPath = 0;
-        solve(root, 0, true);
-        solve(root, 0, false);
+        solve(root, 0, 0);
         return maxPath;
     }
 };
