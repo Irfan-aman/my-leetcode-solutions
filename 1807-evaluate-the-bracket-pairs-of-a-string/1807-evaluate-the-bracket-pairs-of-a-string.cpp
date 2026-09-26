@@ -1,21 +1,24 @@
 class Solution {
 public:
     string evaluate(string s, vector<vector<string>>& knowledge) {
+        int n = s.size();
         unordered_map<string, string> mp;
         for (auto& it : knowledge) {
             mp[it[0]] = it[1];
         }
         string res = "";
-        for (int i = 0; i < s.size(); i++) {
-            if (s[i] != '(')
-                continue;
-            int st = i;
-            int end = s.find(')', i);
-            string key = s.substr(st + 1, end - st - 1);
-            string value = mp.count(key) ? mp[key] : "?";
-            s.replace(st, end - st + 1, value);
-            i = st + value.size() - 1;
+        int i = 0;
+        while (i < n) {
+            if (s[i] == '(') {
+                int j = s.find(')', i + 1);
+                string key = s.substr(i + 1, j - i - 1);
+                res += mp.count(key) ? mp[key] : "?";
+                i = j;
+            } else {
+                res.push_back(s[i]);
+            }
+            i++;
         }
-        return s;
+        return res;
     }
 };
