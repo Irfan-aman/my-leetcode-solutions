@@ -15,10 +15,24 @@ public:
     int minDepth(TreeNode* root) {
         if (!root)
             return 0;
-        if (root->left == NULL && root->right == NULL)
-            return 1;
-        int L = root->left != NULL ? minDepth(root->left) : INT_MAX;
-        int R = root->right != NULL ? minDepth(root->right) : INT_MAX;
-        return 1 + min(L, R);
+        int depth = 1;
+        queue<TreeNode*> q;
+        q.push(root);
+        while (!q.empty()) {
+            int size = q.size();
+            while (size--) {
+                TreeNode* curr = q.front();
+                q.pop();
+                if (!curr->left && !curr->right) {
+                    return depth;
+                }
+                if (curr->left)
+                    q.push(curr->left);
+                if (curr->right)
+                    q.push(curr->right);
+            }
+            depth++;
+        }
+        return 0;
     }
 };
