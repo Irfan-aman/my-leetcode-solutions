@@ -556,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1096-brace-expansion-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1096-brace-expansion-ii) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -638,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0872-leaf-similar-trees](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0872-leaf-similar-trees) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1110-delete-nodes-and-return-forest) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -699,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1110-delete-nodes-and-return-forest) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -859,6 +862,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1110-delete-nodes-and-return-forest) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
