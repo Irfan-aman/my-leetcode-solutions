@@ -14,18 +14,18 @@ class Solution {
 public:
     int res = INT_MAX;
     TreeNode* prev = NULL;
-    void dfs(TreeNode* root) {
+    void inorder(TreeNode* root) {
         if (!root)
             return;
-        dfs(root->left);
+        inorder(root->left);
         if (prev != NULL) {
             res = min(res, root->val - prev->val);
         }
         prev = root;
-        dfs(root->right);
+        inorder(root->right);
     }
     int getMinimumDifference(TreeNode* root) {
-        dfs(root);
+        inorder(root);
         return res;
     }
 };
