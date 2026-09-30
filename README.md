@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1096-brace-expansion-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -584,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2685-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -614,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2685-count-the-number-of-complete-components) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -662,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1110-delete-nodes-and-return-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1110-delete-nodes-and-return-forest) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -730,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1110-delete-nodes-and-return-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1110-delete-nodes-and-return-forest) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -897,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1110-delete-nodes-and-return-forest](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1110-delete-nodes-and-return-forest) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
