@@ -1,42 +1,16 @@
 class Solution {
 public:
-    int maxDepth(string& seq) {
-        int maxi = 0, curr = 0;
-        for (char& ch : seq) {
-            if (ch == '(')
-                curr++;
-            else
-                curr--;
-            maxi = max(maxi, curr);
-        }
-        return maxi;
-    }
     vector<int> maxDepthAfterSplit(string seq) {
         int n = seq.size();
-        int maxDep = maxDepth(seq);
-        int half = maxDep / 2;
-        vector<int> res;
-        int depOfa = 0, depOfb = 0;
-        int currA = 0, currB = 0;
-        for (char& ch : seq) {
-            if (ch == '(') {
-                if (currA < half) {
-                    res.push_back(0);
-                    currA++;
-                    depOfa = max(depOfa, currA);
-                } else {
-                    res.push_back(1);
-                    currB++;
-                    depOfb = max(depOfb, currB);
-                }
+        vector<int> res(n);
+        int d = 0; // current Depth
+        for (int i = 0; i < n; i++) {
+            if (seq[i] == '(') {
+                d++;
+                res[i] = ((d & 1) == 1) ? 1 : 0;
             } else {
-                if (currB > 0) {
-                    res.push_back(1);
-                    currB--;
-                } else {
-                    res.push_back(0);
-                    currA--;
-                }
+                res[i] = ((d & 1) == 1) ? 1 : 0;
+                d--;
             }
         }
         return res;
