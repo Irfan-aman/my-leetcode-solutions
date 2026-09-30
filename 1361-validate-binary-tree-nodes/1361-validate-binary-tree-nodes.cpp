@@ -39,7 +39,7 @@ public:
             int curr = q.front();
             count++;
             q.pop();
-            for (auto nbr : tree[curr]) {
+            for (auto& nbr : tree[curr]) {
                 if (!vis[nbr]) {
                     q.push(nbr);
                     vis[nbr] = true;
