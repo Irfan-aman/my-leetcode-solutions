@@ -12,24 +12,25 @@
  */
 class Solution {
 public:
+    void dfs(TreeNode* root, int depth, map<int, vector<int>>& mp) {
+        mp[depth].push_back(root->val);
+        if (root->left)
+            dfs(root->left, depth + 1, mp);
+        if (root->right)
+            dfs(root->right, depth + 1, mp);
+    }
     vector<int> largestValues(TreeNode* root) {
-        if(!root)return {};
+        if (!root)
+            return {};
+        map<int, vector<int>> mp;
+        dfs(root, 0, mp);
         vector<int> largestVal;
-        queue<TreeNode*> q;
-        q.push(root);
-        while (!q.empty()) {
-            int size = q.size();
-            int maxiVal = INT_MIN;
-            while (size--) {
-                TreeNode* curr = q.front();
-                q.pop();
-                if (curr->left)
-                    q.push(curr->left);
-                if (curr->right)
-                    q.push(curr->right);
-                maxiVal = max(maxiVal, curr->val);
+        for (auto& it : mp) {
+            int maxi = INT_MIN;
+            for (int& x : it.second) {
+                maxi = max(maxi, x);
             }
-            largestVal.push_back(maxiVal);
+            largestVal.push_back(maxi);
         }
         return largestVal;
     }
