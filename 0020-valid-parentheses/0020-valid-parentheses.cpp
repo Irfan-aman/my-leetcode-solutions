@@ -10,7 +10,7 @@ public:
                     return false;
                 else if ((ch == ')' && st.top() == '(') ||
                          (ch == '}' && st.top() == '{') ||
-                         ch == ']' && st.top() == '[') {
+                         (ch == ']' && st.top() == '[')) {
                     st.pop();
                 } else
                     return false;
