@@ -13,7 +13,7 @@
 class Solution {
 public:
     TreeNode* startNode;
-    vector<TreeNode*> parent;
+    unordered_map<TreeNode*, TreeNode*> parent;
     void findStart(TreeNode* root, int start) {
         if (!root)
             return;
@@ -21,48 +21,42 @@ public:
             startNode = root;
         }
         if (root->left) {
-            parent[root->left->val] = root;
+            parent[root->left] = root;
             findStart(root->left, start);
         }
         if (root->right) {
-            parent[root->right->val] = root;
+            parent[root->right] = root;
             findStart(root->right, start);
         }
     }
     int amountOfTime(TreeNode* root, int start) {
         startNode = NULL;
-        parent.resize(100001, NULL);
         findStart(root, start);
-        vector<bool> vis(100001, false);
+        unordered_set<TreeNode*> vis;
         queue<TreeNode*> q;
         q.push(startNode);
-        vis[startNode->val] = true;
-        int time = 0;
+        vis.insert(startNode);
+        int time = -1;
         while (!q.empty()) {
             int size = q.size();
-            bool atleatOne = false;
             while (size--) {
                 TreeNode* curr = q.front();
                 q.pop();
-                if (curr->left && !vis[curr->left->val]) {
+                if (curr->left && vis.find(curr->left) == vis.end()) {
                     q.push(curr->left);
-                    vis[curr->left->val] = true;
-                    atleatOne = true;
+                    vis.insert(curr->left);
                 }
-                if (curr->right && !vis[curr->right->val]) {
+                if (curr->right && vis.find(curr->right) == vis.end()) {
                     q.push(curr->right);
-                    vis[curr->right->val] = true;
-                    atleatOne = true;
+                    vis.insert(curr->right);
                 }
-                if (parent[curr->val] && !vis[parent[curr->val]->val]) {
-                    q.push(parent[curr->val]);
-                    vis[parent[curr->val]->val] = true;
-                    atleatOne = true;
+                if (parent.find(curr) != parent.end() &&
+                    vis.find(parent[curr]) == vis.end()) {
+                    q.push(parent[curr]);
+                    vis.insert(parent[curr]);
                 }
             }
-            if (atleatOne) {
-                time++;
-            }
+            time++;
         }
         return time;
     }
