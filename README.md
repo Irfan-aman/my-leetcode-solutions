@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2094-finding-3-digit-even-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2121-intervals-between-identical-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2121-intervals-between-identical-elements) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2215-find-the-difference-of-two-arrays) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2615-sum-of-distances](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2615-sum-of-distances) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -579,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2685-count-the-number-of-complete-components) |
@@ -675,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2685-count-the-number-of-complete-components) |
@@ -745,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Design
 |  |
@@ -913,6 +917,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1361-validate-binary-tree-nodes](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Binary Lifting
 |  |
