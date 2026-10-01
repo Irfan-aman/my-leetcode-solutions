@@ -567,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -655,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0386-lexicographical-numbers) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
@@ -723,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
@@ -891,6 +894,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
