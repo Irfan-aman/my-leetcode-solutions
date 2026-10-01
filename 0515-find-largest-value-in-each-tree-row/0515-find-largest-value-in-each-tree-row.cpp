@@ -12,26 +12,22 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* root, int depth, map<int, vector<int>>& mp) {
-        mp[depth].push_back(root->val);
+    void dfs(TreeNode* root, int depth, vector<int>& res) {
+        if (res.size() == depth) {
+            res.push_back(root->val);
+        } else {
+            res[depth] = max(res[depth], root->val);
+        }
         if (root->left)
-            dfs(root->left, depth + 1, mp);
+            dfs(root->left, depth + 1, res);
         if (root->right)
-            dfs(root->right, depth + 1, mp);
+            dfs(root->right, depth + 1, res);
     }
     vector<int> largestValues(TreeNode* root) {
         if (!root)
             return {};
-        map<int, vector<int>> mp;
-        dfs(root, 0, mp);
-        vector<int> largestVal;
-        for (auto& it : mp) {
-            int maxi = INT_MIN;
-            for (int& x : it.second) {
-                maxi = max(maxi, x);
-            }
-            largestVal.push_back(maxi);
-        }
-        return largestVal;
+        vector<int> res;
+        dfs(root, 0, res);
+        return res;
     }
 };
