@@ -13,27 +13,23 @@
 class Solution {
 public:
     int res;
-    void solve(TreeNode* root, vector<int>& freq) {
+    void solve(TreeNode* root, int& bit) {
         if (!root)
             return;
-        freq[root->val]++;
+        int x = root->val;
+        bit ^= (1 << x);
         if (root->left == NULL && root->right == NULL) {
-            int oddFreq = 0;
-            for (int i = 1; i <= 9; i++) {
-                if (freq[i] & 1)
-                    oddFreq++;
-            }
-            if (oddFreq <= 1)
+            if ((bit & (bit - 1)) == 0) // only  one bit set
                 res++;
         }
-        solve(root->left, freq);
-        solve(root->right, freq);
-        freq[root->val]--;
+        solve(root->left, bit);
+        solve(root->right, bit);
+        bit ^= (1 << x);
     }
     int pseudoPalindromicPaths(TreeNode* root) {
         res = 0;
-        vector<int> freq(10, 0);
-        solve(root, freq);
+        int bit = 0;
+        solve(root, bit);
         return res;
     }
 };
