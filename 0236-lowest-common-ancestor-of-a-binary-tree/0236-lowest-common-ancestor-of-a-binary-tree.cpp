@@ -9,17 +9,21 @@
  */
 class Solution {
 public:
+    TreeNode* LCA = NULL;
+    int solve(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root)
+            return 0;
+        int L = solve(root->left, p, q);
+        int R = solve(root->right, p, q);
+        int match = root == p || root == q;
+        int totalMatch = match + L + R;
+        if (totalMatch == 2 && LCA == NULL) {
+            LCA = root;
+        }
+        return totalMatch;
+    }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (root == NULL)
-            return NULL;
-        if (root == p || root == q)
-            return root;
-        TreeNode* leftLCA = lowestCommonAncestor(root->left, p, q);
-        TreeNode* rightLCA = lowestCommonAncestor(root->right, p, q);
-        if (leftLCA && rightLCA)
-            return root;
-        if (leftLCA)
-            return leftLCA;
-        return rightLCA;
+        solve(root, p, q);
+        return LCA;
     }
 };
