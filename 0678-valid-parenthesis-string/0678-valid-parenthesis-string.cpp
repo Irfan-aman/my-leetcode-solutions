@@ -2,24 +2,23 @@ class Solution {
 public:
     bool checkValidString(string s) {
         int n = s.size();
-        vector<vector<bool>> dp(n + 1, vector<bool>(n + 1, false));
-        dp[n][0] = true; // i==n & open==0 => true
+        vector<bool> next(n + 1, false);
+        next[0] = true;
         for (int i = n - 1; i >= 0; i--) {
+            vector<bool> curr(n + 1, false);
             for (int open = n - 1; open >= 0; open--) {
-                bool isValid = false;
                 if (s[i] == '*') {
-                    isValid |= dp[i + 1][open + 1];
-                    isValid |= dp[i + 1][open];
+                    curr[open] = next[open + 1] || next[open];
                     if (open > 0)
-                        isValid |= dp[i + 1][open - 1];
+                        curr[open] = curr[open] || next[open - 1];
                 } else if (s[i] == '(') {
-                    isValid |= dp[i + 1][open + 1];
+                    curr[open] = curr[open] || next[open + 1];
                 } else if (s[i] == ')' && open > 0) {
-                    isValid |= dp[i + 1][open - 1];
+                    curr[open] = curr[open] || next[open - 1];
                 }
-                dp[i][open] = isValid;
             }
+            next.swap(curr);
         }
-        return dp[0][0];
+        return next[0];
     }
 };
