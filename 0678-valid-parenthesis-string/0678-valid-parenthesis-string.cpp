@@ -2,26 +2,24 @@ class Solution {
 public:
     bool checkValidString(string s) {
         int n = s.size();
-        stack<int> openIdx, lastStarIdx;
+        int open = 0, close = 0;
         for (int i = 0; i < n; i++) {
-            if (s[i] == '(')
-                openIdx.push(i);
-            else if (s[i] == ')') {
-                if (!openIdx.empty())
-                    openIdx.pop();
-                else if (!lastStarIdx.empty()) {
-                    lastStarIdx.pop();
-                } else
-                    return false;
-            } else {
-                lastStarIdx.push(i);
+            if (s[i] == '(' || s[i] == '*')
+                open++;
+            else {
+                open--;
             }
+            if (open < 0)
+                return false;
         }
-        while (!openIdx.empty() && !lastStarIdx.empty() &&
-               openIdx.top() < lastStarIdx.top()) {
-            lastStarIdx.pop();
-            openIdx.pop();
+        for (int i = n - 1; i >= 0; i--) {
+            if (s[i] == ')' || s[i] == '*')
+                close++;
+            else
+                close--;
+            if (close < 0)
+                return false;
         }
-        return openIdx.empty();
+        return true;
     }
 };
