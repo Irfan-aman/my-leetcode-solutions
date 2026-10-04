@@ -1,29 +1,25 @@
 class Solution {
 public:
-    int n;
-    int dp[101][101];
-    bool solve(string& s, int i, int open) {
-        if (i == s.size()) {
-            return open == 0;
-        }
-        if (dp[i][open] != -1)
-            return dp[i][open];
-        bool isValid = false;
-        if (s[i] == '(') {
-            isValid |= solve(s, i + 1, open + 1);
-        } else if (s[i] == '*') {
-            isValid |= solve(s, i + 1, open + 1);
-            isValid |= solve(s, i + 1, open);
-            if (open > 0)
-                isValid |= solve(s, i + 1, open - 1);
-        } else if (s[i] == ')' && open > 0) {
-            isValid |= solve(s, i + 1, open - 1);
-        }
-        return dp[i][open] = isValid;
-    }
     bool checkValidString(string s) {
-        n = s.size();
-        memset(dp, -1, sizeof(dp));
-        return solve(s, 0, 0);
+        int n = s.size();
+        vector<vector<bool>> dp(n + 1, vector<bool>(n + 1, false));
+        dp[n][0] = true; // i==n & open==0 => true
+        for (int i = n - 1; i >= 0; i--) {
+            for (int open = n - 1; open >= 0; open--) {
+                bool isValid = false;
+                if (s[i] == '*') {
+                    isValid |= dp[i + 1][open + 1];
+                    isValid |= dp[i + 1][open];
+                    if (open > 0)
+                        isValid |= dp[i + 1][open - 1];
+                } else if (s[i] == '(') {
+                    isValid |= dp[i + 1][open + 1];
+                } else if (s[i] == ')' && open > 0) {
+                    isValid |= dp[i + 1][open - 1];
+                }
+                dp[i][open] = isValid;
+            }
+        }
+        return dp[0][0];
     }
 };
