@@ -19,11 +19,8 @@ public:
         if (open == 0)
             return temp;
         for (int i = temp.size() - 1; i >= 0; i--) {
-            if (isalpha(temp[i]))
-                res.push_back(temp[i]);
-            else if (temp[i] == '(' && open > 0) {
+            if (temp[i] == '(' && open > 0) {
                 open--;
-                continue;
             } else {
                 res.push_back(temp[i]);
             }
