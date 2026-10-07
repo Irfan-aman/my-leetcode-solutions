@@ -7,8 +7,7 @@ public:
         long long res = 1;
         for (int i = 2; i <= n; i++) {
             int dig = log2(i) + 1;
-            res = (res << dig) + i;
-            res %=MOD;
+            res = ((res << dig) + i)%MOD;
         }
         return res % MOD;
     }
