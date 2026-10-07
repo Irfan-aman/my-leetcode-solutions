@@ -347,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-stone-game-iv](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1872-stone-game-viii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1927-sum-game) |
@@ -575,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0043-multiply-strings) |
 | [1260-shift-2d-grid](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1260-shift-2d-grid) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1929-concatenation-of-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/2149-rearrange-array-elements-by-sign) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -720,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1457-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1457-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3514-number-of-unique-xor-triplets-ii) |
