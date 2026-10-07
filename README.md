@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0113-path-sum-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
+| [0301-remove-invalid-parentheses](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Sorting
@@ -433,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0058-length-of-last-word) |
 | [0115-distinct-subsequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
+| [0301-remove-invalid-parentheses](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
@@ -590,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0623-add-one-row-to-tree](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0623-add-one-row-to-tree) |
