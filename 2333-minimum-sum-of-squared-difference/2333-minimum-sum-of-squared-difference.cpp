@@ -14,10 +14,12 @@ public:
         for (int i = maxDiff; i >= 1; i--) {
             if (diff[i] == 0)
                 continue;
-            int countOps = min(diff[i], k);
-            diff[i] -= countOps;
-            diff[i - 1] += countOps;
-            k -= countOps;
+            if (k > 0) {
+                int countOps = min(diff[i], k);
+                diff[i] -= countOps;
+                diff[i - 1] += countOps;
+                k -= countOps;
+            }
             res += (ll)diff[i] * i * i;
         }
         return res;
