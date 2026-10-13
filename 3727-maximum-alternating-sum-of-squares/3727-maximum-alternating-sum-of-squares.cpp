@@ -1,18 +1,13 @@
 class Solution {
 public:
-    typedef long long ll;
     long long maxAlternatingSum(vector<int>& nums) {
         int n = nums.size();
-        sort(nums.begin(), nums.end(),
-             [](const int a, const int b) { return abs(a) > abs(b); });
-        ll res = 0;
-        int mid = (n % 2 == 0) ? n / 2 - 1 : n / 2;
-        for (int i = 0; i <= mid; i++) {
-            res += nums[i] * nums[i];
+        for (int i = 0; i < n; i++) {
+            nums[i] = nums[i] * nums[i];
         }
-        for (int i = mid + 1; i < n; i++) {
-            res -= nums[i] * nums[i];
-        }
-        return res;
+        nth_element(nums.begin(), nums.begin() + n / 2, nums.end());
+        long long left = accumulate(nums.begin(), nums.begin() + n / 2, 0LL);
+        long long right = accumulate(nums.begin() + n / 2, nums.end(), 0LL);
+        return right - left;
     }
 };
