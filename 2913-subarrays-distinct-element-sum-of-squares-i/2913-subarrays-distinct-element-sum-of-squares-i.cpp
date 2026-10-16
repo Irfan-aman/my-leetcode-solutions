@@ -1,15 +1,16 @@
 class Solution {
 public:
+    int MOD = 1e9 + 7;
     int sumCounts(vector<int>& nums) {
         int n = nums.size();
-        int res = 0;
+        long long res = 0;
         for (int i = 0; i < n; i++) {
-            unordered_map<int, int> freq;
+            unordered_set<int> st;
             for (int j = i; j < n; j++) {
-                freq[nums[j]]++;
-                res += freq.size() * freq.size();
+                st.insert(nums[j]);
+                res += st.size() * st.size();
             }
         }
-        return res;
+        return res % MOD;
     }
 };
