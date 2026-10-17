@@ -27,11 +27,11 @@ public:
         for (int i = 0; i < n; i++) {
             if (nums[i] == sorted[i])
                 continue;
-            int idxOfNums_i = mp[sorted[i]];
-            int x = nums[i];
-            swap(nums[i], nums[idxOfNums_i]);
+            int idxOfSorted_i = mp[sorted[i]]; // correct idx of sorted num
+            int toBeSwapWith = nums[i];
+            swap(nums[i], nums[idxOfSorted_i]);
             mp[nums[i]] = i;
-            mp[x] = idxOfNums_i;
+            mp[toBeSwapWith] = idxOfSorted_i;
             swaps++;
         }
         return swaps;
