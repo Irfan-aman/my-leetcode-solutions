@@ -2,18 +2,18 @@ class Solution {
 public:
     vector<int> targetIndices(vector<int>& nums, int target) {
         vector<int> targetIdx;
-        int less = 0; // total number of elements less than target
-        int totalTar = 0;
+        int lessCount = 0; // total number of elements less than target
+        int targetCount = 0;
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] < target)
-                less++;
+                lessCount++;
             else if (nums[i] == target)
-                totalTar++;
+                targetCount++;
         }
-        int i = less;
-        while (totalTar--) {
-            targetIdx.push_back(i);
-            i++;
+        int start = lessCount;
+        while (targetCount--) {
+            targetIdx.push_back(start);
+            start++;
         }
         return targetIdx;
     }
