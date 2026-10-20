@@ -15,9 +15,6 @@ public:
     TreeNode* solve(vector<int>& nums, int l, int h) {
         if (l > h)
             return NULL;
-        if (l == h) {
-            return new TreeNode(nums[l]);
-        }
         int mid = l + (h - l) / 2;
         TreeNode* root = new TreeNode(nums[mid]);
         root->left = solve(nums, l, mid - 1);
