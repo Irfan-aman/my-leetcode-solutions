@@ -24,7 +24,6 @@ public:
         int m = pattern.size();
         vector<int> lps(m, 0);
         populateLPS(pattern, lps);
-
         int i = 0, j = 0;
         while (i < n) {
             if (text[i] == pattern[j]) {
