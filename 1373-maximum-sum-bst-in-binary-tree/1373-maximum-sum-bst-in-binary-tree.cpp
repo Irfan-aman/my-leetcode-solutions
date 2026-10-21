@@ -36,7 +36,7 @@ public:
             res = max(res, totalSum);
             return Info(true, mini, maxi, totalSum);
         }
-        return Info(false, mini, maxi, totalSum);
+        return Info(false, mini, maxi, 0);
     }
     int maxSumBST(TreeNode* root) {
         res = 0;
