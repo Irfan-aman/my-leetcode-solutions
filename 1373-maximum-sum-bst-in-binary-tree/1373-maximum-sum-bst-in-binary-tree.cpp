@@ -24,25 +24,23 @@ public:
 class Solution {
 public:
     int res;
-    Info* solve(TreeNode* root) {
+    Info solve(TreeNode* root) {
         if (!root)
-            return new Info(true, INT_MAX, INT_MIN, 0);
-        Info* L = solve(root->left);
-        Info* R = solve(root->right);
-        int mini = min({L->min, R->min, root->val});
-        int maxi = max({L->max, R->max, root->val});
-        int totalSum = L->sum + R->sum + root->val;
-        if (L->isBst && R->isBst && root->val > L->max && root->val < R->min) {
+            return Info(true, INT_MAX, INT_MIN, 0);
+        Info L = solve(root->left);
+        Info R = solve(root->right);
+        int mini = min({L.min, R.min, root->val});
+        int maxi = max({L.max, R.max, root->val});
+        int totalSum = L.sum + R.sum + root->val;
+        if (L.isBst && R.isBst && root->val > L.max && root->val < R.min) {
             res = max(res, totalSum);
-            return new Info(true, mini, maxi, totalSum);
+            return Info(true, mini, maxi, totalSum);
         }
-        return new Info(false, mini, maxi, totalSum);
+        return Info(false, mini, maxi, totalSum);
     }
     int maxSumBST(TreeNode* root) {
-        res = INT_MIN;
+        res = 0;
         solve(root);
-        if (res < 0)
-            return 0;
         return res;
     }
 };
