@@ -25,9 +25,8 @@ public:
             return mp[n];
         vector<TreeNode*> res;
         for (int i = 1; i < n; i += 2) {
-            auto L = (mp.find(i) != mp.end()) ? mp[i] : solve(i);
-            auto R = (mp.find(n - i - 1) != mp.end()) ? mp[n - i - 1]
-                                                      : solve(n - i - 1);
+            auto L = solve(i);
+            auto R = solve(n - i - 1);
             for (auto& leftN : L) {
                 for (auto& rightN : R) {
                     TreeNode* root = new TreeNode(0);
