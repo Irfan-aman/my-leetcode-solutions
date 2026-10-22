@@ -10,10 +10,12 @@ public:
         if (acs_count == n - 1 && nums[0] == 0)
             return 0;
         if (acs_count == n - 1) {
-            return min(n - nums[0], nums[n - 1] + 3);
+            return min(n - nums[0], 1 + (nums[n - 1] + 1) +
+                                        1); // min of left and right rotation
         }
         if (dsc_count == n - 1) {
-            return min(n - nums[n - 1] + 1, (nums[0] + 1) % n + 1);
+            return min(n - nums[n - 1] + 1,
+                       (nums[0] + 1) % n + 1); // min of left and right rotation
         }
         return -1;
     }
