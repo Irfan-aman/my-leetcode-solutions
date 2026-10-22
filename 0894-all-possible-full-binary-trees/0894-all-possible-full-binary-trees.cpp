@@ -21,8 +21,8 @@ public:
             TreeNode* node = new TreeNode(0);
             return {node};
         }
-        // if (mp.find(n) != mp.end())
-        //     return mp[n];
+        if (mp.find(n) != mp.end())
+            return mp[n];
         vector<TreeNode*> res;
         for (int i = 1; i < n; i += 2) {
             auto L = (mp.find(i) != mp.end()) ? mp[i] : solve(i);
