@@ -16,7 +16,7 @@ public:
             if (res[u][count] < d)
                 continue;
             if (u == n - 1) {
-                return res[u][count];
+                return d;
             }
             for (auto& [v, wt] : adj[u]) {
                 int newCount = labels[u] == labels[v] ? count + 1 : 1;
