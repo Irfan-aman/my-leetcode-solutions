@@ -30,6 +30,6 @@ public:
         m = grid.size();
         n = grid[0].size();
         memset(dp, -1, sizeof(dp));
-        return (dfs(grid, 0, 0, 0)) % MOD;
+        return dfs(grid, 0, 0, 0) % MOD;
     }
 };
