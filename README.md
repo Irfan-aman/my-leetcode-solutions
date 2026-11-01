@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0486-predict-the-winner) |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0292-nim-game](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0292-nim-game) |
 | [0371-sum-of-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0509-fibonacci-number) |
