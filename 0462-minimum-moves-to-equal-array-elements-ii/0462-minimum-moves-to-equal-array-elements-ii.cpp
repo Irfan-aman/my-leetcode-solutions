@@ -1,13 +1,13 @@
 class Solution {
 public:
     int minMoves2(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
         int n = nums.size();
+        sort(nums.begin(), nums.end());
         int mid = nums[n / 2];
-        int minMoves = 0;
+        int res = 0;
         for (int& x : nums) {
-            minMoves += abs(mid - x);
+            res += abs(mid - x);
         }
-        return minMoves;
+        return res;
     }
 };
