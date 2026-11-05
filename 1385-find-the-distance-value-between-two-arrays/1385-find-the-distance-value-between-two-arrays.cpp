@@ -11,8 +11,9 @@ public:
                 distVal += arr2[0] - arr1[i] > d;
             } else if (j >= n) {
                 distVal += arr1[i] - arr2[n - 1] > d;
-            } else if (arr2[j] - arr1[i] > d && arr1[i] - arr2[j - 1] > d) {
-                distVal++;
+            } else {
+                distVal +=
+                    (arr2[j] - arr1[i] > d) && (arr1[i] - arr2[j - 1] > d);
             }
         }
         return distVal;
