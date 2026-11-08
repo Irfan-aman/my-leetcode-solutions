@@ -3,21 +3,27 @@ public:
     int countServers(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
-        vector<int> Row(m, 0), Col(n, 0);
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1) {
-                    Row[i]++;
-                    Col[j]++;
+        vector<int> RowAloneServerCol(m, -1), ColServerCount(n, 0);
+        int totalServers = 0;
+        for (int row = 0; row < m; row++) {
+            int countServerInRow = 0;
+            for (int col = 0; col < n; col++) {
+                if (grid[row][col] == 1) {
+                    countServerInRow++;
+                    RowAloneServerCol[row] = col;
+                    ColServerCount[col]++;
                 }
             }
+            if (countServerInRow > 1) {
+                totalServers += countServerInRow;
+                RowAloneServerCol[row] = -1;
+            }
         }
-        int totalServers = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1 && (Row[i] > 1 || Col[j] > 1)) {
-                    totalServers++;
-                }
+
+        for (int row = 0; row < m; row++) {
+            int col = RowAloneServerCol[row];
+            if (RowAloneServerCol[row] != -1 && ColServerCount[col] > 1) {
+                totalServers++;
             }
         }
         return totalServers;
