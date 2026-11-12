@@ -4,18 +4,9 @@ public:
         int ans = 1;
         int currInc = 1, currDec = 1;
         for (int i = 1; i < nums.size(); i++) {
-            if (nums[i - 1] < nums[i]) {
-                currInc++;
-                ans = max(ans, currInc);
-                currDec = 1;
-            } else if (nums[i - 1] > nums[i]) {
-                currDec++;
-                ans = max(ans, currDec);
-                currInc = 1;
-            } else {
-                currDec = 1;
-                currInc = 1;
-            }
+            currInc = nums[i - 1] < nums[i] ? currInc + 1 : 1;
+            currDec = nums[i - 1] > nums[i] ? currDec + 1 : 1;
+            ans = max({ans, currDec, currInc});
         }
         return ans;
     }
