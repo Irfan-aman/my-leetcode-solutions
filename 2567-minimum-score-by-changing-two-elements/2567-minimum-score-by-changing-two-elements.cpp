@@ -2,8 +2,6 @@ class Solution {
 public:
     int minimizeSum(vector<int>& nums) {
         int n = nums.size();
-        if (n == 3)
-            return 0;
         int mini = INT_MAX, secMin = INT_MAX, thirdMin = INT_MAX,
             maxi = INT_MIN, secMax = INT_MIN, thirdMax = INT_MIN;
         for (int i = 0; i < n; i++) {
