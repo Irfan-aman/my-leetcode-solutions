@@ -5,7 +5,7 @@ public:
 
     void add(int num) {
         if (num == 0) {
-            products.erase(products.begin(), products.end());
+            products.clear();
         } else {
             products.push_back(products.empty() ? num : products.back() * num);
         }
