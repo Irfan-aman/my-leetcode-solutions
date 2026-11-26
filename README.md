@@ -297,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0146-lru-cache) |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0349-intersection-of-two-arrays](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0058-length-of-last-word) |
 | [0115-distinct-subsequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0131-palindrome-partitioning) |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0301-remove-invalid-parentheses](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
@@ -584,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0239-sliding-window-maximum](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
@@ -683,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 | [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
 | [3934-smallest-unique-subarray](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
 ## String Matching
@@ -692,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0706-design-hashmap](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0706-design-hashmap) |
 | [1392-longest-happy-prefix](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1392-longest-happy-prefix) |
 | [3934-smallest-unique-subarray](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
@@ -873,6 +878,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0029-divide-two-integers) |
 | [0137-single-number-ii](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0137-single-number-ii) |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0371-sum-of-two-integers](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0645-set-mismatch](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0645-set-mismatch) |
 | [1386-cinema-seat-allocation](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
@@ -1209,4 +1215,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3934-smallest-unique-subarray](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
+## Z Algorithm
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
+## Boyer–Moore String-Search Algorithm
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/Irfan-aman/my-leetcode-solutions/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
