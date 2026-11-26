@@ -2,25 +2,18 @@ class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
         int n = s.size();
-        unordered_set<string> st;
-        string dna = "";
-        int i = 0, j = 0;
+        vector<string> res;
+        string dna = s.substr(0, 9);
         unordered_map<string, int> mp;
-        while (j < n) {
-            dna.push_back(s[j]);
-            if (j - i + 1 < 10)
-                j++;
-            else {
-                mp[dna]++;
-                if (mp[dna] > 1) {
-                    st.insert(dna);
-                }
-                dna = dna.substr(1);
-                i++;
-                j++;
+        for (int i = 9; i < n; i++) {
+            dna.push_back(s[i]);
+            mp[dna]++;
+            if (mp[dna] == 2) {
+                res.push_back(dna);
             }
+            dna = dna.substr(1);
         }
-        vector<string> res(st.begin(), st.end());
+
         return res;
     }
 };
